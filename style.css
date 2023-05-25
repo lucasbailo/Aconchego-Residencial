@@ -1,0 +1,254 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+
+    /*Fonts*/
+    --font-Bold: 'Gilroy-Bold', sans-serif;
+    --font-Heavy: 'Gilroy-Heavy', sans-serif;
+    --font-Light: 'Gilroy-Light', sans-serif;
+    --font-Medium: 'Gilroy-Medium', sans-serif;
+    --font-Regular: 'Gilroy-Regular', sans-serif;
+
+    /*Colors*/
+    --color-Header: #62BEAC;
+    --color-Nav: #91AF68;
+    --color-Text: #E6F2E5; /*nav, body e footer*/
+    --color-Text-Holder: #979997; /*Cor do texto antes do preenchimento do formulário*/
+    --color-Text-Icons: #FFFFFF;
+    --color-Servicos: #278D79;
+    --color-Blank: #91AF68;
+    --color-Back-Form-Home: rgba(98, 190, 172, 0.25);
+    --color-Back-Form: #E6F5E7;
+
+}
+
+body {
+    font-family: var(--font-Light);
+    color: var(--color-Text);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--color-Text);
+}
+
+.current-page {
+    font-family: var(--font-Bold);
+}
+
+.color-text {
+    color: var(--color-Text);
+    font-family: var(--font-Light);
+}
+
+.faixa-logo {
+    background-color: var(--color-Header);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo-alone,.mobile-menu {
+    display: none;
+}
+
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+nav {
+    background-color: var(--color-Nav);
+    font-family: var(--font-Bold);
+    font-size: 30px;
+}
+
+.ul-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.image-footer {
+    width: 100%;
+    height: 767px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/FooterImage.png);
+}
+
+.image-overlay-footer {
+    width: 100%;
+    height: 767px;
+    background-color: rgba(145,175,104,0.9);
+    display: flex;
+    background-image: url(icons/LogoFooter1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: right;
+}
+
+.box-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 14rem;
+}
+
+.links-footer {
+    width: 30%;
+}
+
+.middle-footer{
+    margin-top: 2rem;
+}
+
+.h1-footer{
+    color: var(--color-Text);
+    font-family: var(--font-Bold);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.li-footer {
+    font-size: 30px;
+    color: var(--color-Text);
+    font-family: var(--font-Light);
+}
+
+.li-footer:visited {
+    color: var(--color-Text);
+}
+
+.ul-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/*915px - vou ter que fazer uma viewport de celular*/
+
+@media screen and (max-width: 915px) {
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .social-links {
+        display: none;
+        gap: 1rem;
+        margin-right: 1rem;
+    }
+
+    .logo-alone,.mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu {
+        margin-right: 2rem;
+    }
+
+    .logo-name {
+        display: none;
+    }
+
+    .menu-hamburguer-links {
+        background: var(--color-Blank);
+        position: absolute;
+        margin-top: 10px;
+        right: 3em;
+        text-decoration: none;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .links-decoration {
+        text-decoration: none;
+        font-family: var(--font-Light);
+    }
+
+    .links-decoration:visited {
+        color: var(--color-Text);
+    }
+    
+    .image {
+        width: 100%;
+        height: 462px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(images/HomeImage.png);
+    }
+    
+    .image-overlay {
+        width: 100%;
+        height: 462px;
+        background-color: rgba(98,190,172,0.41);
+    }
+    
+    .image-footer {
+        width: 100%;
+        height: 467px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(images/FooterImage.png);
+    }
+    
+    .image-overlay-footer {
+        width: 100%;
+        height: 467px;
+        background-color: rgba(145,175,104,0.9);
+    }
+    
+}
