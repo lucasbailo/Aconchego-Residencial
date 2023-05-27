@@ -92,6 +92,7 @@ a:visited {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    padding-top: 2rem;
 }
 
 .logo-alone,.mobile-menu {
@@ -101,14 +102,16 @@ a:visited {
 
 .social-links {
     display: flex;
-    gap: 1rem;
-    margin-right: 1rem;
+    gap: 2rem;
+    margin-right: 3rem;
 }
 
 nav {
     background-color: var(--color-Nav);
     font-family: var(--font-Bold);
+    color: var(--color-Text);
     font-size: 30px;
+    padding: 0.8rem;
 }
 
 .ul-box {

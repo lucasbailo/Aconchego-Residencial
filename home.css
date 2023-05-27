@@ -16,11 +16,15 @@
 
 .section-form {
     background-color: var(--color-Nav);
-    padding: 2rem;
+    padding: 3rem;
     font-size: 30px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.form-text-title {
+    line-height: 40.35px;
 }
 
 .form-and-button-box {
@@ -37,7 +41,6 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    box-sizing: content-box;
 }
 
 /*Borda do input do formulário ao ser clicado e em preenchimento*/
@@ -62,26 +65,30 @@ input:focus-visible {
 }
 
 .input-home {
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 35px;
+    border-radius: 15px;
     background-color: var(--color-Back-Form-Home);
     border: none;
     font-family: var(--font-Light);
     padding: 0.5rem;
+    padding-left: 1.5rem;
+    flex-wrap: wrap;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 .input-home-name {
-    width: 98.8%;
+    width: 100%;
 }
 
 .input-div-data {
     display: flex;
-
     justify-content: space-between;
 }
 
 .input-home-email,.input-home-whatsapp {
-    width: 48%;
+    width: 49%;
 }
 
 .form-button {
@@ -92,13 +99,19 @@ input:focus-visible {
     border: none;
     border-radius: 10px;
     padding: 0.5rem;
-    width: 50%;
+    width: 40%;
 }
 
 .section-servicos {
-    background: var(--color-Servicos);
-    padding: 2rem;
+    background: var(--color-Header);
+    padding: 3rem 3.5rem;
     color: var(--color-Text-Icons);
+}
+
+.servicos-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .servicos-title {
@@ -107,9 +120,83 @@ input:focus-visible {
 }
 
 .servicos-text {
-    font-size: 30px;
+    font-size: 35px;
     font-family: var(--font-Light);
-    line-height: 2.2rem;
+    line-height: 40.35px;
+}
+
+.servicos-icons-box {
+    display: grid;
+    grid-template-areas: 
+    "medico enfermagem fisio psicologa"
+    "pisicoped nutri fono terapia";
+    align-items: baseline;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.icon-medico {
+    grid-area: "medico";
+}
+
+.icon-enfermagem {
+    grid-area: "enfermagem";
+}
+.icon-fisio {
+    grid-area: "fisio";
+}
+
+.icon-psicologa {
+    grid-area: "psicologa";
+}
+
+.icon-pisicoped {
+    grid-area: "pisicoped";
+}
+
+.icon-nutri {
+    grid-area: "nutri";
+}
+
+.icon-fono {
+    grid-area: "fono";
+}
+
+.icon-terapia {
+    grid-area: "terapia";
+}
+
+
+.servicos-icons {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+/* .servicos-icons-image {
+
+} */
+.servicos-icons-text {
+    text-align: center;
+    font-size: 23px;
+    font-family: var(--font-Bold);
+    line-height: 28.18px;
+}
+
+.rectangle-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle-img {
+    display: flex;
+    text-align: center;
+    width: 70%;
+    height: 64px;
+    position: absolute;
 }
 
 @media screen and (max-width: 915px) {
