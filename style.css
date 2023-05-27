@@ -205,9 +205,9 @@ nav {
         margin-right: 2rem;
     }
 
-    .logo-name {
+    /* .logo-name {
         display: none;
-    }
+    } */
 
     .menu-hamburguer-links {
         background: var(--color-Blank);
