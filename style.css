@@ -143,7 +143,7 @@ nav {
 }
 
 .image-overlay-footer {
-    width: 100%;
+    width: 95%;
     height: 767px;
     display: flex;
     background-image: url(icons/LogoFooter1.png);
@@ -351,7 +351,7 @@ nav {
     }
 
     #btn-mobile{
-        width: 24px;
+        width: 32px;
         cursor: pointer;
     }
 
@@ -425,11 +425,15 @@ nav {
 
 @media screen and (max-width: 410px) {
 
-
     .logo-name {
+        width: 269.53px;
+        height: 65.15px;
+    }
+
+    /* .logo-name {
         width: 154.55px;
         height: 37.36px;
-    }
+    } */
 
     .social-links-footer {
         margin-top: 2.9rem;

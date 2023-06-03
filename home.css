@@ -305,7 +305,7 @@ input:focus-visible {
 
     .section-form {
         background-color: var(--color-Nav);
-        padding: 3rem;
+        padding: 1.5rem;
         font-size: 19px;
         display: flex;
         flex-direction: column;
@@ -325,6 +325,10 @@ input:focus-visible {
     .input-home {
         font-size: 18px;
         border-radius: 5px;
+    }
+
+    .section-servicos {
+        padding: 1.5rem;
     }
 
     .servicos-text{
