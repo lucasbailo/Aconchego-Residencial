@@ -98,7 +98,8 @@ a:visited {
 
 .logo-name {
     display: block;
-    width: fit-content;
+    width: 570px;
+    height: 137.77px;
 }
 
 #nav {
@@ -209,6 +210,7 @@ nav {
 
     .logo-name {
         width: 470px;
+        height: auto;
     }
 
     .social-links-icons {
@@ -247,6 +249,7 @@ nav {
 
     .logo-name {
         width: 370px;
+        height: auto;
     }
 
     .social-links {
@@ -317,6 +320,7 @@ nav {
 
     .logo-name {
         width: 206.86px;
+        height: auto;
     }
 
     .mobile-menu {
