@@ -209,8 +209,8 @@ nav {
     }
 
     .logo-name {
-        width: 470px;
-        height: auto;
+        width: 418.45px;
+        height: 101.14px;
     }
 
     .social-links-icons {
@@ -248,8 +248,8 @@ nav {
     }
 
     .logo-name {
-        width: 370px;
-        height: auto;
+        width: 344.93px;
+        height: 83.37px;
     }
 
     .social-links {
@@ -319,8 +319,8 @@ nav {
     }
 
     .logo-name {
-        width: 206.86px;
-        height: auto;
+        width: 269.53px;
+        height: 65.15px;
     }
 
     .mobile-menu {
@@ -425,6 +425,11 @@ nav {
 
 @media screen and (max-width: 410px) {
 
+
+    .logo-name {
+        width: 154.55px;
+        height: 37.36px;
+    }
 
     .social-links-footer {
         margin-top: 2.9rem;
