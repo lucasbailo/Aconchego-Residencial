@@ -96,6 +96,10 @@ a:visited {
     padding-top: 2rem;
 }
 
+.logo-name {
+    display: block;
+}
+
 #nav {
     display: none;
 }
