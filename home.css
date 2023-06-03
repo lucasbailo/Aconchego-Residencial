@@ -1,17 +1,11 @@
 @import url(./style.css);
 
 .image {
-    width: 100vw;
+    width: 100%;
     height: 862px;
     background-position: center;
     background-size: cover;
     background-image: url(images/HomeImage.png);
-}
-
-.image-overlay {
-    width: 100vw;
-    height: 862px;
-    background-color: rgba(98,190,172,0.41);
 }
 
 .section-form {
@@ -25,6 +19,7 @@
 
 .form-text-title {
     line-height: 40.35px;
+    width: 75%;
 }
 
 .form-and-button-box {
@@ -135,6 +130,26 @@ input:focus-visible {
     justify-content: space-between;
 }
 
+.servicos-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.servicos-icons-text {
+    text-align: center;
+    font-size: 23px;
+    font-family: var(--font-Bold);
+    line-height: 28.18px;
+}
+
+.servicos-icons-image {
+    max-width: 204px;
+    min-width: 102px;
+}
+
 .icon-medico {
     grid-area: "medico";
 }
@@ -166,25 +181,6 @@ input:focus-visible {
     grid-area: "terapia";
 }
 
-
-.servicos-icons {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-/* .servicos-icons-image {
-
-} */
-.servicos-icons-text {
-    text-align: center;
-    font-size: 23px;
-    font-family: var(--font-Bold);
-    line-height: 28.18px;
-}
-
 .rectangle-section {
     display: flex;
     align-items: center;
@@ -199,20 +195,169 @@ input:focus-visible {
     position: absolute;
 }
 
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 1110px) {
+
+    .section-form,.input-home,.form-button {
+        font-size: 26px;
+    }
+
+    .form-box {
+        border-radius: 15px;
+    }
+
+    .input-home {
+        border-radius: 10px ;
+    }
+    
+    .servicos-text {
+        font-size: 26px;
+    }
+    
+    .servicos-title{
+        font-size: 40px;
+    }
+    
+    .servicos-icons-text{
+        font-size: 21px;
+    }
     
     .image {
+        background-position: center;
+        background-size: cover;
+        background-image: url(images/HomeImage.png);
         width: 100%;
-        height: 462px;
+        height: 632.82px;
+    }
+    
+    .servicos-icons-box {
+        display: grid;
+        grid-template-areas: 
+        "medico enfermagem fisio psicologa"
+        "pisicoped nutri fono terapia";
+        align-items: baseline;
+        gap: 2rem;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .servicos-icons-image {
+        width: 140px;
+    }
+}
+
+
+@media screen and (max-width: 915px) {
+    .section-form,.input-home,.form-button {
+        font-size: 22px;
+    }
+    
+    .servicos-text {
+        font-size: 22px;
+    }
+    
+    .servicos-title{
+        font-size: 30px;
+    }
+    
+    .servicos-icons-text{
+        font-size: 19px;
+    }
+    
+    .image {
+        height: 521.65px;
         background-position: center;
         background-size: cover;
         background-image: url(images/HomeImage.png);
     }
     
-    .image-overlay {
-        width: 100%;
-        height: 462px;
-        background-color: rgba(98,190,172,0.41);
+    .servicos-icons-box {
+        display: grid;
+        grid-template-areas: 
+        "medico enfermagem" 
+        "fisio psicologa"
+        "pisicoped nutri" 
+        "fono terapia";
+        align-items: baseline;
+        gap: 2rem;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .servicos-icons-image {
+        max-width: 140px;
+        min-width: 96px;
+    }
+
+}
+
+@media screen and (max-width: 715px) {
+
+    .image {
+        height: 407.63px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(images/HomeImage.png);
     }
     
+    .servicos-icons-image {
+        max-width: 95px;
+    }
+
+    .section-form {
+        background-color: var(--color-Nav);
+        padding: 3rem;
+        font-size: 19px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .form-text-title {
+        line-height: 30px;
+        width: 80%;
+    }
+
+    .form-box {
+        border-radius: 10px;
+        padding: 1.5rem;
+    }
+
+    .input-home {
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    .servicos-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .servicos-icons-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .rectangle-img {
+        height: 36px;
+    }
+
+}
+
+
+@media screen and (max-width: 410px) {
+
+    .image {
+        height: 225px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(images/HomeImage.png);
+    }
+    
+    .servicos-icons-image {
+        max-width: 95px;
+    }
+
+    .rectangle-img {
+        height: 32px;
+    }
 }

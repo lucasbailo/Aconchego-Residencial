@@ -17,24 +17,24 @@
     <header>
         <div class="faixa-logo">
             <img src="./icons/Logo + Nome.png" alt="" class="logo-name">
-            <img src="./icons/Logo.png" alt="" class="logo-alone">
-            <div class="mobile-menu">
-                <img src="./icons/Menu Hambúrguer.png" alt="Menu" class="menu-hamburguer">
-                <ul class="menu-hamburguer-links">
-                    <li class="li-decoration"><a href="" class="links-decoration">Instagram</a></li>
-                    <li class="li-decoration"><a href="" class="links-decoration">Facebook</a></li>
-                    <li class="li-decoration"><a href="" class="links-decoration">WhatsApp</a></li>
-                    <li class="li-decoration"><a href="" class="links-decoration">Localização</a></li>
+            <div id="nav">
+                <img src="./icons/Menu Hambúrguer.png" alt="Menu" class="menu-hamburguer" id="btn-mobile">
+                <ul id="menu">
+                    <li class="li-decoration li-decoration-alt1"><b><a href="" class="links-decoration">Home</a></li></b>
+                    <li class="li-decoration li-decoration-alt2"><a href="" class="links-decoration">Quem Somos</a></li>
+                    <li class="li-decoration li-decoration-alt1"><a href="" class="links-decoration">Serviços</a></li>
+                    <li class="li-decoration li-decoration-alt2"><a href="" class="links-decoration">Contato</a></li>
+                    <li class="li-decoration li-decoration-alt1"><a href="" class="links-decoration">Trabalhe Conosco</a></li>
                 </ul>
             </div>
             <div class="social-links">
-                <a href="https://instagram.com/aconchego_residencial?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="./icons/Icon Insta.png" alt="Link do Instagram"></a> 
-                <a href="" target="_blank"><img src="./icons/Icon Face.png" alt="Link do Facebook"></a>
-                <a href="https://api.whatsapp.com/send?phone=5517996511001" target="_blank"><img src="./icons/Icon Whats.png" alt="Link do WhatsApp"></a>
-                <a href="https://goo.gl/maps/R7Yf7MfvBXC4kqLT6" target="_blank"><img src="./icons/Icon Mapa.png" alt="Link do Endereço"></a>
+                <a href="https://instagram.com/aconchego_residencial?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="./icons/Icon Insta.png" alt="Link do Instagram" class="social-links-icons"></a> 
+                <a href="" target="_blank"><img src="./icons/Icon Face.png" alt="Link do Facebook" class="social-links-icons"></a>
+                <a href="https://api.whatsapp.com/send?phone=5517996511001" target="_blank"><img src="./icons/Icon Whats.png" alt="Link do WhatsApp" class="social-links-icons"></a>
+                <a href="https://goo.gl/maps/R7Yf7MfvBXC4kqLT6" target="_blank"><img src="./icons/Icon Mapa.png" alt="Link do Endereço" class="social-links-icons"></a>
             </div>
         </div>
-        <nav>
+        <nav class="nav-box">
             <ul class="ul-box color-text">
                 <li class="current-page"><a href="">Home</a></li>
                 <li><a href="">Quem Somos</a></li>
@@ -48,7 +48,7 @@
         <div class="image-overlay"></div>
     </div>
     <section class="section-form">
-        <p class="form-text-title">Preencha os dados abaixo para que um de nossos</br>atendentes entre em contato com você.</p>
+        <p class="form-text-title">Preencha os dados abaixo para que um de nossos atendentes entre em contato com você.</p>
         <form action="https://formsubmit.co/bailolucas4@gmail.com" method="POST" class="form-and-button-box">
             <div class="form-box">
                 <div class="input-div-name">
@@ -110,6 +110,12 @@
     <footer>
         <div class="image-footer">
             <div class="image-overlay-footer">
+                <div class="social-links-footer">
+                    <a href="https://instagram.com/aconchego_residencial?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="./icons/Icon Insta.png" alt="Link do Instagram" class="social-links-icons"></a> 
+                    <a href="" target="_blank"><img src="./icons/Icon Face.png" alt="Link do Facebook" class="social-links-icons"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5517996511001" target="_blank"><img src="./icons/Icon Whats.png" alt="Link do WhatsApp" class="social-links-icons"></a>
+                    <a href="https://goo.gl/maps/R7Yf7MfvBXC4kqLT6" target="_blank"><img src="./icons/Icon Mapa.png" alt="Link do Endereço" class="social-links-icons"></a>
+                </div>
                 <div class="box-footer">
                     <div class="links-footer">
                         <ul class="ul-footer">
@@ -140,10 +146,12 @@
                                 Catanduva/SP - CEP 15810-025
                             </li>
                         </ul>
+                        <div class="logo-footer"></div>
                     </div>
                 </div>
             </div>
         </div>   
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
