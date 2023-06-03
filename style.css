@@ -98,6 +98,7 @@ a:visited {
 
 .logo-name {
     display: block;
+    width: fit-content;
 }
 
 #nav {
