@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.form-box{
+.form-box {
     background: var(--color-Back-Form);
     padding: 1rem 3rem;
     border-radius: 20px;
@@ -107,17 +107,6 @@ input:focus-visible {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-}
-
-.servicos-title {
-    font-family: var(--font-Bold);
-    font-size: 50px;
-}
-
-.servicos-text {
-    font-size: 35px;
-    font-family: var(--font-Light);
-    line-height: 40.35px;
 }
 
 .servicos-icons-box {
@@ -209,14 +198,6 @@ input:focus-visible {
         border-radius: 10px ;
     }
     
-    .servicos-text {
-        font-size: 26px;
-    }
-    
-    .servicos-title{
-        font-size: 40px;
-    }
-    
     .servicos-icons-text{
         font-size: 21px;
     }
@@ -249,14 +230,6 @@ input:focus-visible {
 @media screen and (max-width: 915px) {
     .section-form,.input-home,.form-button {
         font-size: 22px;
-    }
-    
-    .servicos-text {
-        font-size: 22px;
-    }
-    
-    .servicos-title{
-        font-size: 30px;
     }
     
     .servicos-icons-text{
@@ -329,11 +302,6 @@ input:focus-visible {
 
     .section-servicos {
         padding: 1.5rem;
-    }
-
-    .servicos-text{
-        font-size: 16px;
-        line-height: 24px;
     }
 
     .servicos-icons-text {

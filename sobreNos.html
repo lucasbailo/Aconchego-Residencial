@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./sobreNos.css">
     <style>
         @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
     </style>
@@ -20,8 +20,8 @@
             <div id="nav">
                 <img src="./icons/Menu Hambúrguer.png" alt="Menu" class="menu-hamburguer" id="btn-mobile">
                 <ul id="menu">
-                    <li class="li-decoration li-decoration-alt1"><b><a href="./index.html" class="links-decoration">Home</a></li></b>
-                    <li class="li-decoration li-decoration-alt2"><a href="/sobreNos.html" class="links-decoration">Quem Somos</a></li>
+                    <li class="li-decoration li-decoration-alt1"><a href="./index.html" class="links-decoration">Home</a></li>
+                    <li class="li-decoration li-decoration-alt2"><b><a href="/sobreNos.html" class="links-decoration">Quem Somos</a></li></b>
                     <li class="li-decoration li-decoration-alt1"><a href="" class="links-decoration">Serviços</a></li>
                     <li class="li-decoration li-decoration-alt2"><a href="" class="links-decoration">Contato</a></li>
                     <li class="li-decoration li-decoration-alt1"><a href="" class="links-decoration">Trabalhe Conosco</a></li>
@@ -36,77 +36,34 @@
         </div>
         <nav class="nav-box">
             <ul class="ul-box color-text">
-                <li class="current-page"><a href="./index.html">Home</a></li>
-                <li><a href="./sobreNos.html">Quem Somos</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li class="current-page"><a href="./sobreNos.html">Quem Somos</a></li>
                 <li><a href="">Serviços</a></li>
                 <li><a href="">Contato</a></li>
                 <li><a href="">Trabalhe Conosco</a></li>
             </ul>
         </nav>
     </header>
-    <div class="image">
-        <div class="image-overlay"></div>
-    </div>
-    <section class="section-form">
-        <p class="form-text-title">Preencha os dados abaixo para que um de nossos atendentes entre em contato com você.</p>
-        <form action="https://formsubmit.co/bailolucas4@gmail.com" method="POST" class="form-and-button-box">
-            <div class="form-box">
-                <div class="input-div-name">
-                    <input type="text" name="name" required placeholder="Nome" class="input-home input-home-name">
-                </div>
-                <div class="input-div-data">
-                    <input type="email" name="email" required placeholder="E-mail" class="input-home input-home-email">
-                    <input type="tel" name="WhatsApp" required placeholder="WhatsApp" class="input-home input-home-whatsapp">
-                </div>
+    <main class="sobre-nos-class">
+        <div class="title-text-gap">
+            <h1 class="title-decoration">Sobre Nós</h1>
+            <p class="paragrafo-text">Somos uma residência exclusiva para idosos na cidade de Catanduva, interior de São Paulo, a qual foi projetada e idealizada por profissionais da saúde, visando o maior conforto, segurança e acessibilidade para nossos moradores.</p>
+            <p class="paragrafo-text">Nosso compromisso é com a qualidade de vida e segurança dos nossos idosos e com a tranquilidade de seus familiares.</p>
+            <p class="paragrafo-text">Oferecemos serviços de moradia, hotel e centro dia (creche). Além de contarmos com uma equipe interdisciplinar, treinada e capacitada no atendimento à pessoa idosa.</p>
+        </div>
+        <!--Vídeos e fotos-->
+        <div class="box-image-video">
+            <div class="box-video"><!--Vídeo-->
+                <iframe class="video-class" src="https://www.youtube.com/embed/yOQR_Y3khz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class="div-button">
-                <button type="submit" class="form-button">Enviar</button>
-            </div>
-       </form>
-    </section>
-    <section class="section-servicos">
-        <div class="servicos-header">
-            <h1 class="title-decoration">Serviços</h1>
-            <p class="paragrafo-text">A Aconchego Residencial Sênior oferece um serviço completo e personalizado com excelência e foco na segurança e humanização do idoso, buscando sempre o fortalecimento da relação com os familiares e responsáveis.</p>
-            <div class="servicos-icons-box">
-                <div class="servicos-icons">
-                    <img class="servicos-icons-image icon-medico" src="./icons/ServicosMedico.png" alt="">
-                    <p class="servicos-icons-text">Acompanhamento<br>Médico</p>
-                </div>
-                <div class="servicos-icons">
-                    <img class="servicos-icons-image icon-enfermagem" src="./icons/ServicosEnfermagem.png" alt="">
-                    <p class="servicos-icons-text">Enfermagem</p>
-                </div>
-                <div class="servicos-icons">
-                    <img class="servicos-icons-image icon-fisio" src="./icons/ServicosFisio.png" alt="">
-                    <p class="servicos-icons-text">Fisioterapia</p>
-                </div>
-                <div class="servicos-icons">
-                    <img class="servicos-icons-image icon-psicologa" src="./icons/ServicosPsico.png" alt="">
-                    <p class="servicos-icons-text">Psicóloga</p>
-                </div>
-                <div class="servicos-icons">
-                    <img class="servicos-icons-image icon-pisicoped" src="./icons/ServicosPiscoPed.png" alt="">
-                    <p class="servicos-icons-text">Psicopedagoga</p>
-                </div>
-                <div class="servicos-icons">
-                    <img class="servicos-icons-image icon-nutri" src="./icons/ServicosNutri.png" alt="">
-                    <p class="servicos-icons-text">Nutricionista</p>
-                </div>
-                <div class="servicos-icons">
-                    <img class="servicos-icons-image icon-fono" src="./icons/ServicosFono.png" alt="">
-                    <p class="servicos-icons-text">Fonoaudióloga</p>
-                </div>
-                <div class="servicos-icons">
-                    <img class="servicos-icons-image icon-terapia" src="./icons/ServicosMedico.png" alt="">
-                    <p class="servicos-icons-text">Terapia<br>Ocupacional</p>
-                </div>
+            <div class="box-images">
+                <img class="image-class" src="./images/Inserir.png" alt="">
+                <img class="image-class" src="./images/Inserir.png" alt="">
+                <img class="image-class" src="./images/Inserir.png" alt="">
+                <img class="image-class" src="./images/Inserir.png" alt="">
             </div>
         </div>
-    </section>
-    <section class="rectangle-section">
-        <img src="./icons/Rectangle 24.png" alt="" class="rectangle-img">
-    </section>
+    </main>
     <footer>
         <div class="image-footer">
             <div class="image-overlay-footer">

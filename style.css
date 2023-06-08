@@ -59,6 +59,7 @@ table {
     --color-Text-Holder: #979997; /*Cor do texto antes do preenchimento do formulário*/
     --color-Text-Icons: #FFFFFF;
     --color-Servicos: #278D79;
+    --color-Sobre-Nos-Text: #278D79;
     --color-Blank: #91AF68;
     --color-Back-Form-Home: rgba(98, 190, 172, 0.25);
     --color-Back-Form: #E6F5E7;
@@ -85,6 +86,23 @@ a:visited {
 .color-text {
     color: var(--color-Text);
     font-family: var(--font-Light);
+}
+
+.title-decoration {
+    font-family: var(--font-Bold);
+    font-size: 50px;
+}
+
+.paragrafo-text {
+    font-size: 35px;
+    font-family: var(--font-Light);
+    line-height: 40.35px;
+}
+
+.title-text-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .faixa-logo {
@@ -208,6 +226,14 @@ nav {
         font-size: 26px;
     }
 
+    .title-decoration {
+        font-size: 40px;
+    }
+
+    .paragrafo-text {
+        font-size: 21px;
+    }
+
     .logo-name {
         width: 418.45px;
         height: 101.14px;
@@ -245,6 +271,14 @@ nav {
 
     nav,.h1-footer,.li-footer {
         font-size: 22px;
+    }
+
+    .title-decoration {
+        font-size: 30px;
+    }
+
+    .paragrafo-text {
+        font-size: 21px;
     }
 
     .logo-name {
@@ -300,6 +334,15 @@ nav {
         margin-right: 2rem;
     }
     
+    .title-decoration {
+        font-size: 30px;
+    }
+
+    .paragrafo-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
     .faixa-logo {
         padding: 1rem;
     }
