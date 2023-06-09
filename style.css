@@ -164,7 +164,7 @@ nav {
     width: 95%;
     height: 767px;
     display: flex;
-    background-image: url(icons/LogoFooter1.png);
+    background-image: url(icons/LogoFooter.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-x: right;
@@ -249,7 +249,7 @@ nav {
 
     .image-overlay-footer {
         height: 563.08px;
-        background-image: url(icons/LogoFooter1110.png);
+        background-image: url(icons/LogoFooter1110.svg);
     }
 
     .box-footer {
@@ -312,7 +312,7 @@ nav {
     }
 
     .image-overlay-footer {
-        background-image: url(icons/LogoFooter915.png);
+        background-image: url(icons/LogoFooter915.svg);
     }
 }
 
@@ -457,7 +457,7 @@ nav {
     
     .image-overlay-footer {
         height: 760px;
-        background-image: url(icons/LogoFooter715.png);
+        background-image: url(icons/LogoFooter715.svg);
     }
 
     .ul-footer {
@@ -520,6 +520,6 @@ nav {
 
     .image-overlay-footer {
         height: 600px;
-        background-image: url(icons/LogoFooter390.png);
+        background-image: url(icons/LogoFooter390.svg);
     }
 }
