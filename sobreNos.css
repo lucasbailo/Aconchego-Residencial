@@ -3,7 +3,7 @@
 main {
     background-color: var(--color-Back-Form);
     color: var(--color-Sobre-Nos-Text);
-    background-image: url(./images/Background.png);
+    background-image: url(./images/Background.svg);
     background-size: 100%;
     background-position-y: -74px;
     background-repeat: no-repeat;
@@ -23,7 +23,6 @@ main {
     flex-direction: column;
     gap: 3rem;
     width: 100%;
-    height: 100%;
     justify-content: space-around;
 }
 
@@ -51,12 +50,15 @@ main {
     grid-template: 
     "item item"
     "item item";
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 3rem;
+    width: 100%;
+    height: 100%;
 }
 
 .image-class {
     width: 100%;
+    height: 100%;
     border-radius: 50px;
 }
 
@@ -70,6 +72,7 @@ main {
 
     .box-images {
         gap: 1.5rem;
+        justify-content: space-evenly;
     }
 }
 
