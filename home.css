@@ -10,7 +10,7 @@
 
 .section-form {
     background-color: var(--color-Nav);
-    padding: 3rem;
+    padding: 3rem 8rem;
     font-size: 30px;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,6 @@
 }
 
 .form-text-title {
-    line-height: 40.35px;
     width: 75%;
 }
 
@@ -99,7 +98,7 @@ input:focus-visible {
 
 .section-servicos {
     background: var(--color-Header);
-    padding: 3rem 3.5rem;
+    padding: 3rem 8rem;
     color: var(--color-Text-Icons);
 }
 
@@ -205,7 +204,6 @@ input:focus-visible {
     .image {
         background-position: center;
         background-size: cover;
-        background-image: url(images/HomeImage.png);
         width: 100%;
         height: 632.82px;
     }
@@ -240,7 +238,6 @@ input:focus-visible {
         height: 521.65px;
         background-position: center;
         background-size: cover;
-        background-image: url(images/HomeImage.png);
     }
     
     .servicos-icons-box {
@@ -269,7 +266,6 @@ input:focus-visible {
         height: 407.63px;
         background-position: center;
         background-size: cover;
-        background-image: url(images/HomeImage.png);
     }
     
     .servicos-icons-image {
@@ -286,7 +282,6 @@ input:focus-visible {
     }
     
     .form-text-title {
-        line-height: 30px;
         width: 80%;
     }
 
@@ -322,7 +317,6 @@ input:focus-visible {
         height: 225px;
         background-position: center;
         background-size: cover;
-        background-image: url(images/HomeImage.png);
     }
     
     .servicos-icons-image {

@@ -83,6 +83,8 @@ a:visited {
     font-family: var(--font-Bold);
 }
 
+
+/*Textos e fontes padrão*/
 .color-text {
     color: var(--color-Text);
     font-family: var(--font-Light);
@@ -90,13 +92,13 @@ a:visited {
 
 .title-decoration {
     font-family: var(--font-Bold);
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .paragrafo-text {
-    font-size: 35px;
+    font-size: 25px;
     font-family: var(--font-Light);
-    line-height: 40.35px;
+    line-height: 30px;
 }
 
 .title-text-gap {
@@ -104,20 +106,23 @@ a:visited {
     flex-direction: column;
     gap: 2rem;
 }
+/*Textos e fontes padrão*/
 
 .faixa-logo {
     background-color: var(--color-Header);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
-    padding-top: 2rem;
+    padding: 1rem 8rem 1rem 6rem;
 }
 
 .logo-name {
     display: block;
-    width: 570px;
-    height: 137.77px;
+    width: 344.93px;
+    height: 83.37px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 #nav {
@@ -128,28 +133,27 @@ a:visited {
     display: grid;
     grid-template-areas:
     "item item item item";
-    gap: 2rem;
-    margin-right: 3rem;
+    gap: 1rem;
 }
 
 .social-links-icons {
     max-width: 73px;
-    min-width: 53px;
+    width: 43px;
 }
 
 nav {
     background-color: var(--color-Nav);
     font-family: var(--font-Bold);
     color: var(--color-Text);
-    font-size: 30px;
-    padding: 0.8rem;
+    font-size: 20px;
+    padding: .3rem 8rem;
 }
 
 .ul-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 0.5rem;
+    justify-content: space-between;
+    padding: 0.5rem 0;
 }
 
 .image-footer {
@@ -221,26 +225,13 @@ nav {
         height: 100vh;
         width: 100%;
     }
-
-    nav,.h1-footer,.li-footer {
-        font-size: 26px;
-    }
-
+    
     .title-decoration {
         font-size: 40px;
     }
 
     .paragrafo-text {
         font-size: 21px;
-    }
-
-    .logo-name {
-        width: 418.45px;
-        height: 101.14px;
-    }
-
-    .social-links-icons {
-        width: 55px;
     }
 
     .image-footer {
@@ -262,37 +253,14 @@ nav {
 
 }
 
-
 @media screen and (max-width: 915px) {
     body {
         height: 100vh;
         width: 100%;
     }
 
-    nav,.h1-footer,.li-footer {
-        font-size: 22px;
-    }
-
-    .title-decoration {
-        font-size: 30px;
-    }
-
     .paragrafo-text {
         font-size: 21px;
-    }
-
-    .logo-name {
-        width: 344.93px;
-        height: 83.37px;
-    }
-
-    .social-links {
-        gap: 1rem;
-        margin-right: 1.5rem;
-    }
-    
-    .social-links-icons {
-        width: 43px;
     }
 
     .links-decoration {
@@ -325,17 +293,11 @@ nav {
 
     .social-links {
         display: none;
-        gap: 1rem;
-        margin-right: 1rem;
     }
 
     .mobile-menu {
         display: block;
         margin-right: 2rem;
-    }
-    
-    .title-decoration {
-        font-size: 30px;
     }
 
     .paragrafo-text {
