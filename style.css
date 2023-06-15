@@ -157,8 +157,9 @@ nav {
 }
 
 .image-footer {
-    width: 100%;
-    height: 767px;
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 10%;
     background-position: center;
     background-size: cover;
     background-image: url(images/FooterImage.svg);
@@ -166,9 +167,10 @@ nav {
 
 .image-overlay-footer {
     width: 95%;
-    height: 767px;
+    height: 100%;
+    padding-bottom: 10%;
     display: flex;
-    background-image: url(icons/LogoFooter.svg);
+    background-image: url(icons/LogoFooter1110.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-x: right;
@@ -180,6 +182,7 @@ nav {
     justify-content: space-evenly;
     align-items: flex-start;
     margin-top: 14rem;
+    padding: 0 6rem;
 }
 
 .links-footer {
@@ -192,15 +195,11 @@ nav {
 
 .h1-footer {
     color: var(--color-Text);
-    font-family: var(--font-Bold);
     font-weight: 800;
-    font-size: 40px;
 }
 
 .li-footer {
-    font-size: 30px;
     color: var(--color-Text);
-    font-family: var(--font-Light);
 }
 
 .li-footer:visited {
@@ -210,7 +209,7 @@ nav {
 .ul-footer {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .social-links-footer{
@@ -234,12 +233,7 @@ nav {
         font-size: 21px;
     }
 
-    .image-footer {
-        height: 563.08px;
-    }
-
     .image-overlay-footer {
-        height: 563.08px;
         background-image: url(icons/LogoFooter1110.svg);
     }
 
@@ -269,14 +263,6 @@ nav {
 
     .links-decoration:visited {
         color: var(--color-Text);
-    }
-
-    .image-footer {
-        height: 760px;
-    }
-    
-    .image-overlay-footer {
-        height: 760px;
     }
 
     .image-overlay-footer {
@@ -413,12 +399,7 @@ nav {
         width: 72%;
     }
 
-    .image-footer {
-        height: 760px;
-    }
-    
     .image-overlay-footer {
-        height: 760px;
         background-image: url(icons/LogoFooter715.svg);
     }
 
@@ -434,11 +415,6 @@ nav {
         width: 269.53px;
         height: 65.15px;
     }
-
-    /* .logo-name {
-        width: 154.55px;
-        height: 37.36px;
-    } */
 
     .social-links-footer {
         margin-top: 2.9rem;
@@ -476,12 +452,7 @@ nav {
         gap: 1.7rem;
     }
 
-    .image-footer {
-        height: 600px;
-    }
-
     .image-overlay-footer {
-        height: 600px;
         background-image: url(icons/LogoFooter390.svg);
     }
 }
