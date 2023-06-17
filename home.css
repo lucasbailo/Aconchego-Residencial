@@ -106,6 +106,20 @@ input:focus-visible {
     width: 40%;
 }
 
+.form-button:hover {
+    background-color: var(--color-Header);
+    color:var(--color-Back-Form);
+    transition: 0.6s;
+    transform: scale(1.05);
+}
+
+.form-button:active {
+    background-color: green;
+    color: var(--color-Back-Form);
+    transition: 0.1s;
+    transform: scale(0.95);
+}
+
 .section-servicos {
     background: var(--color-Header);
     padding: 3rem 8rem;

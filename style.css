@@ -253,6 +253,11 @@ nav {
         width: 100%;
     }
 
+    nav {
+        font-size: 18px;
+        padding: .3rem 6rem;
+    }
+
     .paragrafo-text {
         font-size: 21px;
     }
@@ -331,7 +336,10 @@ nav {
         visibility: hidden;
         right: 0;
         margin-right: 1rem;
-        transition: all .3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.1s;
+        transition: .9s;
+        z-index: 1000;
+        overflow-y: hidden;
+        height: 0px;
     }
 
     .buttons-menu {
@@ -347,7 +355,10 @@ nav {
     }
 
     #nav.active #menu {
+        transition: 1.5s;
         visibility: visible;
+        height: 100%;
+        overflow-y: auto;
     }
 
     #nav.active #btn-mobile {
