@@ -2,7 +2,7 @@
 
 .section-servicos {
     background-color: var(--color-Servicos);
-    padding: 8rem;
+    padding: 4rem 4rem 0 8rem;
     padding-bottom: 0;
 }
 
@@ -12,10 +12,10 @@
     background-image: url(./icons/JardineiroIcon.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-position-x: right;
+    background-position-x: 100%;
     background-position-y: 15rem;
     padding-bottom: 15rem;
-    width: 90%;
+    width: 100%;
 }
 
 .image-servicos {
