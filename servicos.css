@@ -35,7 +35,7 @@
 }
 
 .ul-servicos {
-    text-indent: -2rem;
+    text-indent: -1.8rem;
     list-style: inside;
     margin-left: 3rem;
 }
@@ -70,6 +70,10 @@
 
     .box-servicos {
         flex-direction: column;
+    }
+
+    .ul-servicos {
+        text-indent: -1.5rem;
     }
     
     .ul-atividades{
