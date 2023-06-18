@@ -3,6 +3,7 @@
 .section-servicos {
     background-color: var(--color-Servicos);
     padding: 8rem;
+    padding-bottom: 0;
 }
 
 .box-servicos {
@@ -12,8 +13,8 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-x: right;
-    background-position-y: 25rem;
-    padding-bottom: 25rem;
+    background-position-y: 15rem;
+    padding-bottom: 15rem;
     width: 90%;
 }
 
