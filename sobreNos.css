@@ -7,9 +7,8 @@ main {
     background-size: 100%;
     background-position-y: -74px;
     background-repeat: no-repeat;
-    padding: 8rem;
+    padding: 4rem 8rem;
 }
-
 
 .sobre-nos-class {
     display: flex;
@@ -65,6 +64,7 @@ main {
 @media screen and (max-width: 915px) {
     main {
         background-position-y: -60px;
+        padding: 4rem 6rem;
     }
     .image-class {
         border-radius: 30px;
@@ -89,10 +89,7 @@ main {
         gap: 1rem;
         width: 100%;
     }
-
 }
-
-
 
 @media screen and (max-width: 410px) {
     main {

@@ -257,9 +257,13 @@ nav {
         width: 100%;
     }
 
+    .faixa-logo{
+        padding: 1rem 6rem 1rem 4rem;
+    }
+
     nav {
         font-size: 18px;
-        padding: .3rem 6rem;
+        padding: 0.3rem 6rem;
     }
 
     .paragrafo-text {
