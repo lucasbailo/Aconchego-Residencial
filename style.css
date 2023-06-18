@@ -229,7 +229,7 @@ nav {
     }
     
     .title-decoration {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .paragrafo-text {
@@ -297,6 +297,10 @@ nav {
     .mobile-menu {
         display: block;
         margin-right: 2rem;
+    }
+
+    .title-decoration {
+        font-size: 24px;
     }
 
     .paragrafo-text {
