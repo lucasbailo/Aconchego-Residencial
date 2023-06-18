@@ -7,7 +7,7 @@ main {
     background-size: 100%;
     background-position-y: -74px;
     background-repeat: no-repeat;
-    padding: 3rem;
+    padding: 8rem;
 }
 
 
@@ -22,7 +22,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    width: 100%;
+    width: 75%;
     justify-content: space-around;
 }
 
@@ -75,6 +75,24 @@ main {
         justify-content: space-evenly;
     }
 }
+
+@media screen and (max-width: 715px) {
+    main {
+        padding: 2rem;
+    }
+
+    .sobre-nos-class {
+        gap: 2rem;
+    }
+
+    .box-image-video {
+        gap: 1rem;
+        width: 100%;
+    }
+
+}
+
+
 
 @media screen and (max-width: 410px) {
     main {
