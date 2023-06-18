@@ -1,0 +1,145 @@
+@import url(./style.css);
+
+.section-form {
+    background-color: var(--color-Back-Form);
+    padding: 3rem 8rem;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title-decoration-conosco, .subtitle-decoration-conosco, .paragrafo-text-conosco {
+    color: var(--color-Servicos);
+}
+
+.subtitle-decoration-conosco {
+    font-size: 25px;
+}
+
+.ul-conosco {
+    text-indent: -2rem;
+    list-style: inside;
+    margin-left: 3rem;
+}
+
+.form-text-title {
+    width: 75%;
+}
+
+.form-and-button-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.form-box {
+    background: var(--color-Nav);
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/*Borda do input do formulário ao ser clicado e em preenchimento*/
+input:focus-visible, textarea:focus-visible {
+    outline: 2px solid var(--color-Header);
+}
+
+
+/*Texto que aparece antes do usuário preencher os dados no formulário*/
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--color-Text-Holder);
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--color-Text-Holder);
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--color-Text-Holder);
+}
+
+.input-conosco {
+    font-size: 20px;
+    border-radius: 10px;
+    background: var(--color-Back-Form);
+    border: none;
+    font-family: var(--font-Light);
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    flex-wrap: wrap;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.input-conosco-name {
+    width: 100%;
+}
+
+.input-conosco-text-area {
+    height: 100%;
+}
+
+.input-div-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-conosco-email,.input-conosco-whatsapp {
+    width: 49%;
+}
+
+.form-button {
+    color: var(--color-Back-Form);
+    font-size: 25px;
+    font-family: var(--font-Bold);
+    background-color: var(--color-Servicos);
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 40%;
+}
+
+.form-button:hover {
+    background-color: var(--color-Header);
+    color:var(--color-Back-Form);
+    transition: 0.6s;
+    transform: scale(1.05);
+}
+
+.form-button:active {
+    background-color: green;
+    color: var(--color-Back-Form);
+    transition: 0.1s;
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 915px) {
+    .section-form {
+        padding: 2rem 6rem;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .section-form {
+        font-size: 22px;
+        padding: 1.5rem;
+        font-size: 25px;
+        gap: 2rem;
+    }
+
+    .form-box {
+        border-radius: 10px;
+        padding: 1.5rem;
+    }
+}
