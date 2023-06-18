@@ -2,7 +2,7 @@
 
 .section-servicos {
     background-color: var(--color-Servicos);
-    padding: 6rem;
+    padding: 8rem;
 }
 
 .box-servicos {
@@ -19,7 +19,7 @@
 
 .image-servicos {
     width: 100vw;
-    margin-bottom: -3px;
+    margin-bottom: -4px;
     border: 0px;
 }
 
@@ -43,8 +43,61 @@
     width: 80%;
 }
 
+
+@media screen and (max-width: 915px) {
+
+    .section-servicos {
+        padding: 4rem;
+    }
+
+    .box-servicos {
+        display: flex;
+        gap: 2rem;
+        background-image: url(./icons/Jardineiro915.svg);
+        background-repeat: no-repeat;
+        width: 90%;
+        padding-bottom: 8rem;
+        background-position-y: 20rem;
+    }
+}
+
 @media screen and (max-width: 715px) {
+
+    .section-servicos {
+        padding: 2rem;
+    }
+
     .box-servicos {
         flex-direction: column;
-    } 
+    }
+    
+    .ul-atividades{
+        width: fit-content;
+    }
+
+    .box-atividades{
+        width: fit-content;
+    }
+
+    .box-servicos {
+        display: flex;
+        gap: 2rem;
+        background-image: url(./icons/JardineiroMobile.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-bottom: 6rem;
+        background-position-y: 30rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .box-servicos {
+        display: flex;
+        gap: 2rem;
+        background-image: url(./icons/JardineiroMobile.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-bottom: 8rem;
+        background-position-y: 36rem;
+    }
 }

@@ -250,6 +250,11 @@ input:focus-visible {
 
 
 @media screen and (max-width: 915px) {
+
+    .faixa-logo {
+        gap: 1rem;
+    }
+
     .section-form,.input-home,.form-button {
         font-size: 22px;
     }
@@ -257,12 +262,6 @@ input:focus-visible {
     .servicos-icons-text{
         font-size: 19px;
     }
-    
-    /* .image {
-        height: 521.65px;
-        background-position: center;
-        background-size: cover;
-    } */
     
     .servicos-icons-box {
         display: grid;
@@ -286,12 +285,10 @@ input:focus-visible {
 
 @media screen and (max-width: 715px) {
 
-    /* .image {
-        height: 407.63px;
-        background-position: center;
-        background-size: cover;
+    .image-home {
+        margin-bottom: -4px;
     }
-     */
+
     .servicos-icons-image {
         max-width: 95px;
     }
@@ -337,12 +334,6 @@ input:focus-visible {
 
 @media screen and (max-width: 410px) {
 
-    /* .image {
-        height: 225px;
-        background-position: center;
-        background-size: cover;
-    } */
-    
     .servicos-icons-image {
         max-width: 95px;
     }

@@ -73,7 +73,10 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--color-Text);
 }
+
+
 
 a:visited {
     color: var(--color-Text);
@@ -92,11 +95,11 @@ a:visited {
 
 .title-decoration {
     font-family: var(--font-Bold);
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .paragrafo-text {
-    font-size: 25px;
+    font-size: 20px;
     font-family: var(--font-Light);
     line-height: 30px;
 }
@@ -182,7 +185,7 @@ nav {
     justify-content: space-evenly;
     align-items: flex-start;
     margin-top: 14rem;
-    padding: 0 6rem;
+    padding: 0 6rem
 }
 
 .links-footer {
@@ -239,8 +242,9 @@ nav {
 
     .box-footer {
         margin-top: 11rem;
+        padding: 0 5rem
     }
-    
+
     .ul-footer {
         gap: 1rem;
     }
