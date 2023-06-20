@@ -7,79 +7,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./sobreNos.css">
     <style>
         @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
     </style>
-<title>Página Padrão</title>
+<title>Quem Somos - Aconchego Residencial Sênior</title>
 </head>
 <body>
     <header>
         <div class="faixa-logo">
-            <img src="./icons/LogoAndNome2.svg" alt="" class="logo-name">
-            <img src="./icons/Logo.png" alt="" class="logo-alone">
-            <div class="mobile-menu">
-                <img src="./icons/Menu Hambúrguer.png" alt="Menu" class="menu-hamburguer">
-                <ul class="menu-hamburguer-links">
-                    <li class="li-decoration"><a href="" class="links-decoration">Instagram</a></li>
-                    <li class="li-decoration"><a href="" class="links-decoration">Facebook</a></li>
-                    <li class="li-decoration"><a href="" class="links-decoration">WhatsApp</a></li>
-                    <li class="li-decoration"><a href="" class="links-decoration">Localização</a></li>
+            <img src="./icons/LogoLimpo.svg" alt="" class="logo-name">
+            <div id="nav">
+                <button class="menu-hamburguer" id="btn-mobile">
+                    <span id="hamburguer" ></span>
+                </button>
+                <ul id="menu">
+                    <li class="li-decoration li-decoration-alt1"><a href="./index.html" class="links-decoration">Home</a></li>
+                    <li class="li-decoration li-decoration-alt2"><b><a href="/sobreNos.html" class="links-decoration">Quem Somos</a></li></b>
+                    <li class="li-decoration li-decoration-alt1"><a href="./servicos.html" class="links-decoration">Serviços</a></li>
+                    <li class="li-decoration li-decoration-alt2"><a href="./contato.html" class="links-decoration">Contato</a></li>
+                    <li class="li-decoration li-decoration-alt1"><a href="./trabalheConosco.html" class="links-decoration">Trabalhe Conosco</a></li>
                 </ul>
             </div>
             <div class="social-links">
-                <img src="./icons/Icon Insta.png" alt="Link do Instagram">
-                <img src="./icons/Icon Face.png" alt="Link do Facebook">
-                <img src="./icons/Icon Whats.png" alt="Link do WhatsApp">
-                <img src="./icons/Icon Mapa.png" alt="Link do Endereço">
+                <a href="https://instagram.com/aconchego_residencial?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="./icons/Icon InstaSVG.svg" alt="Link do Instagram" class="social-links-icons"></a> 
+                <a href="" target="_blank"><img src="./icons/IconFaceSVG.svg" alt="Link do Facebook" class="social-links-icons"></a>
+                <a href="https://api.whatsapp.com/send?phone=5517996511001" target="_blank"><img src="./icons/IconWhatsSVG.svg" alt="Link do WhatsApp" class="social-links-icons"></a>
+                <a href="https://goo.gl/maps/R7Yf7MfvBXC4kqLT6" target="_blank"><img src="./icons/IconMapaSVG.svg" alt="Link do Endereço" class="social-links-icons"></a>
             </div>
         </div>
-        <nav>
+        <nav class="nav-box">
             <ul class="ul-box color-text">
-                <li><a href="">Home</a></li>
-                <li><a href="">Quem Somos</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Trabalhe Conosco</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li class="current-page"><a href="./sobreNos.html">Quem Somos</a></li>
+                <li><a href="./servicos.html">Serviços</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./trabalheConosco.html">Trabalhe Conosco</a></li>
             </ul>
         </nav>
     </header>
+    <!-- Fim da página padrão e início da pagina atual -->
+
+    <!-- Fim da página atual e início da pagina padrão -->
     <footer>
         <div class="image-footer">
             <div class="image-overlay-footer">
+                <div class="social-links-footer">
+                    <a href="https://instagram.com/aconchego_residencial?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="./icons/Icon InstaSVG.svg" alt="Link do Instagram" class="social-links-icons"></a> 
+                <a href="" target="_blank"><img src="./icons/IconFaceSVG.svg" alt="Link do Facebook" class="social-links-icons"></a>
+                <a href="https://api.whatsapp.com/send?phone=5517996511001" target="_blank"><img src="./icons/IconWhatsSVG.svg" alt="Link do WhatsApp" class="social-links-icons"></a>
+                <a href="https://goo.gl/maps/R7Yf7MfvBXC4kqLT6" target="_blank"><img src="./icons/IconMapaSVG.svg" alt="Link do Endereço" class="social-links-icons"></a>
+                </div>
                 <div class="box-footer">
                     <div class="links-footer">
                         <ul class="ul-footer">
-                            <h1 class="h1-footer">Menu</h1>
-                            <li class="li-footer"><a href="" class="li-footer">Home</a></li>
-                            <li class="li-footer"><a href="" class="li-footer">Quem somos</a></li>
-                            <li class="li-footer"><a href="" class="li-footer">Serviços</a></li>
-                            <li class="li-footer"><a href="" class="li-footer">Contato</a></li>
-                            <li class="li-footer"><a href="" class="li-footer">Trabalhe Conosco</a></li>
+                            <h1 class="h1-footer title-decoration">Menu</h1>
+                            <li class="li-footer paragrafo-text"><a href="./index.html" class="li-footer paragrafo-text">Home</a></li>
+                            <li class="li-footer paragrafo-text"><a href="./sobreNos.html" class="li-footer paragrafo-text">Quem somos</a></li>
+                            <li class="li-footer paragrafo-text"><a href="./servicos.html" class="li-footer paragrafo-text">Serviços</a></li>
+                            <li class="li-footer paragrafo-text"><a href="./contato.html" class="li-footer paragrafo-text">Contato</a></li>
+                            <li class="li-footer paragrafo-text"><a href="./trabalheConosco.html" class="li-footer paragrafo-text">Trabalhe Conosco</a></li>
                         </ul>
                     </div>
                     <div class="links-footer links-middle">
                         <ul class="ul-footer">
-                            <h1 class="h1-footer">Contato</h1>
-                            <li class="li-footer"><a href="https://api.whatsapp.com/send?phone=5517996511001" target="_blank" class="li-footer">Atendimento via WhatsApp</a></li>
-                            <li class="li-footer"><a href="" class="li-footer">Atendimento via e-mail</a></li>
+                            <h1 class="h1-footer title-decoration">Contato</h1>
+                            <li class="li-footer paragrafo-text"><a href="https://api.whatsapp.com/send?phone=5517996511001" target="_blank" class="li-footer paragrafo-text">Atendimento via WhatsApp</a></li>
+                            <li class="li-footer paragrafo-text"><a href="" class="li-footer paragrafo-text">Atendimento via e-mail</a></li>
                         </ul>
                         <ul class="ul-footer">
-                            <h1 class="h1-footer middle-footer">Atendimento</h1>
-                            <li class="li-footer">Atendimento Todos os dias a partir das 8:00 até as 18:00 horas.</li>
+                            <h1 class="h1-footer title-decoration middle-footer">Atendimento</h1>
+                            <li class="li-footer paragrafo-text">Atendimento Todos os dias a partir das 8:00 até as 18:00 horas.</li>
                         </ul>
                     </div>
                     <div class="links-footer box-local">
                         <ul class="ul-footer">
-                            <h1 class="h1-footer">Localização</h1>
-                            <li class="li-footer">
+                            <h1 class="h1-footer title-decoration">Localização</h1>
+                            <li class="li-footer paragrafo-text">
                                 Rua Ourinhos, 898 - Jardim Soto
                                 Catanduva/SP - CEP 15810-025
                             </li>
                         </ul>
+                        <div class="logo-footer"></div>
                     </div>
                 </div>
             </div>
         </div>   
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
