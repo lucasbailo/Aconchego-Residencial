@@ -9,7 +9,7 @@
 .box-servicos {
     display: flex;
     gap: 2rem;
-    background-image: url(./icons/JardineiroIcon.svg);
+    background-image: url(/icons/JardineiroIcon.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-x: 100%;
@@ -54,7 +54,7 @@
     .box-servicos {
         display: flex;
         gap: 2rem;
-        background-image: url(./icons/Jardineiro915.svg);
+        background-image: url(/icons/Jardineiro915.svg);
         background-repeat: no-repeat;
         width: 90%;
         padding-bottom: 8rem;
@@ -87,7 +87,7 @@
     .box-servicos {
         display: flex;
         gap: 2rem;
-        background-image: url(./icons/JardineiroMobile.svg);
+        background-image: url(/icons/JardineiroMobile.svg);
         background-repeat: no-repeat;
         width: 100%;
         padding-bottom: 6rem;
@@ -99,10 +99,10 @@
     .box-servicos {
         display: flex;
         gap: 2rem;
-        background-image: url(./icons/JardineiroMobile.svg);
+        background-image: url(/icons/JardineiroMobile.svg);
         background-repeat: no-repeat;
         width: 100%;
-        padding-bottom: 8rem;
+        padding-bottom: 9.5rem;
         background-position-y: 36rem;
     }
 }

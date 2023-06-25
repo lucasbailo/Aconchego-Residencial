@@ -3,7 +3,7 @@
 main {
     background-color: var(--color-Back-Form);
     color: var(--color-Sobre-Nos-Text);
-    background-image: url(./images/Background.svg);
+    background-image: url(/images/Background.svg);
     background-size: 100%;
     background-position-y: -74px;
     background-repeat: no-repeat;
